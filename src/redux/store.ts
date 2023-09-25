@@ -10,6 +10,7 @@ import cartsReducer from "./carts";
 import wishlistsReducer from "./wishlists";
 import categoriesReducer from "./categories";
 import productsReducer from "./products";
+import featuredReducer from "./featured";
 // orders and order details
 
 // persist config
@@ -26,6 +27,7 @@ const rootReducer = combineReducers({
   wishlists: wishlistsReducer,
   categories: categoriesReducer,
   products: productsReducer,
+  featured: featuredReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

@@ -2,6 +2,8 @@ import API from "./index";
 
 // get all
 export const getAllProducts = () => API.get("/products/all");
+// get latest
+export const getLatestProduct = () => API.get("/products/all");
 // get by id
 export const getProductById = (id: string) => API.get(`/products/single/${id}`);
 //   get all products by category

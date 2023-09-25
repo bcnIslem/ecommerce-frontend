@@ -24,7 +24,7 @@ export const categoriesSlice = createSlice({
   initialState,
   reducers: {
     getCategories: (state, action) => {
-      state.categories = action.payload.categories;
+      state.categories = action.payload;
     },
     getCategory: (state, action) => {
       state.category = action.payload;

@@ -6,6 +6,7 @@ export const productsSlice = createSlice({
     products: [],
     productsByCategory: [],
     product: 0,
+    latest: 0,
   },
   reducers: {
     getProducts: (state, action) => {
@@ -17,11 +18,14 @@ export const productsSlice = createSlice({
     getProduct: (state, action) => {
       state.product = action.payload;
     },
+    getLatest: (state, action) => {
+      state.latest = action.payload;
+    },
   },
 });
 
 // actions
-export const { getProducts, getProductsByCategory, getProduct } =
+export const { getProducts, getProductsByCategory, getProduct, getLatest } =
   productsSlice.actions;
 
 // reducer

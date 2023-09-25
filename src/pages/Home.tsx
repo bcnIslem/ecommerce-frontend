@@ -5,7 +5,7 @@ import React from "react";
 import Welcome from "../components/home/welcome";
 import Latest from "../components/home/latest";
 import TopCategories from "../components/home/topCategories";
-import Categories from "../components/home/categoreis";
+import Categories from "../components/home/categories";
 
 const Home: React.FC = () => {
   return (

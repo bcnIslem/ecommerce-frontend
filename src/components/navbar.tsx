@@ -2,14 +2,14 @@ import React from "react";
 
 import { CgProfile } from "react-icons/cg";
 import { PiShoppingCart, PiHeartBold } from "react-icons/pi";
-// import { FiSearch } from "react-icons/fi";
+import { FiSearch } from "react-icons/fi";
 
 import LOGO from "../assets/logo.png";
 
 const Navbar: React.FC = () => {
   return (
-    <div className="w-full h-[8vh] bg-white flex items-center justify-between rounded-md shadow-md">
-      <div className="w-2/5 p-2">
+    <div className="w-full h-[8vh] bg-white flex md:flex-col-reverse md:h-auto md:justify-start items-center justify-between rounded-md shadow-md">
+      <div className="w-2/5 md:w-full p-2">
         <ul className="flex flex-row justify-around">
           <li className="text-black">
             {/* <h1 className="font-bold cursor-pointer p-2"> */}
@@ -31,14 +31,14 @@ const Navbar: React.FC = () => {
           </li>
         </ul>
       </div>
-      <div className="w-2/5 p-2 flex items-center justify-around">
+      <div className="w-2.5/5 p-2 md:w-full md:shadow-md flex items-center justify-around">
         <div className="w-[300px] h-10 rounded-md p-2 shadow-md flex items-center">
           <input
             type="text"
             placeholder="Search entire store here."
             className="w-[94%] mr-2"
           />
-          {/* <FiSearch size="26" /> */}
+          <FiSearch size="26" />
         </div>
 
         <div className="flex justify-around w-[150px]">

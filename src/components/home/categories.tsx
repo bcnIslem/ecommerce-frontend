@@ -19,7 +19,7 @@ const Categories: React.FC = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
-        className="w-full py-2 sm:w-full md:w-full lg:w-full mx-auto xl:w-full flex flex-wrap sm:flex-col md:flex-col lg:flex-col items-center justify-start"
+        className="w-full pt-4 sm:w-full md:w-full lg:w-full mx-auto xl:w-full flex flex-wrap sm:flex-col md:flex-col lg:flex-col items-center justify-center rounded-md shadow-md mb-4"
       >
         {!categories?.length ? (
           <h1>Loading...</h1>

@@ -45,8 +45,8 @@ const Welcome: React.FC = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="flex w-[90vw] px-2 sm:flex-col md:flex-col lg:flex-col xl:flex xl:w-[100vw] items-center justify-around">
-        <div className="w-[30%] sm:w-[90vw] md:w-[90vw] lg:w-[90vw] xl:w-2/5 ">
+      <div className="flex w-[90vw] px-2 sm:flex-col md:flex-col lg:flex-col xl:flex xl:w-[100vw] items-center justify-center">
+        <div className="w-[30%] sm:w-[90vw] md:w-[90vw] lg:w-[90vw] xl:w-2/5">
           <h1 className="font-bold text-6xl mb-4 sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl">
             The BCN Shop
           </h1>
@@ -60,11 +60,11 @@ const Welcome: React.FC = () => {
             Get Shopping
           </button>
         </div>
-        <div className="w-[500px] sm:w-[100%] sm:h-[400px] mx-auto md:w-[90%] md:h-[400px] lg:w-[80%] lg:h-[450px] xl:w-[600px] rounded-md flex flex-col items-center justify-center">
+        <div className="w-[500px] sm:w-[100%] sm:h-[400px] mx-auto md:w-[90%] md:h-[400px] lg:w-[80%] lg:h-[450px] xl:w-[600px] xxl:w-[700px] rounded-md flex flex-col items-center justify-center">
           <img
             src={PATH + "uploads/product_img_" + featured?.images[0]}
             alt={featured?.images[0]}
-            className="rounded-xl object-cover h-[500px] w-[500px] sm:w-full sm:h-full md:w-full md:h-full lg:w-full xl:w-[600px] lg:h-full xl:h-[400px] shadow-md cursor-pointer hover:scale-105"
+            className="rounded-xl object-cover h-[500px] w-[500px] sm:w-full sm:h-full md:w-full md:h-full lg:w-full xl:w-[600px] lg:h-full xl:h-[400px] xxl:w-[700px] shadow-md cursor-pointer hover:scale-105"
           />
         </div>
       </div>

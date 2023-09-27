@@ -8,7 +8,7 @@ import LOGO from "../assets/logo.png";
 
 const Navbar: React.FC = () => {
   return (
-    <div className="w-full h-[8vh] bg-white flex md:flex-col-reverse md:h-auto md:justify-start items-center justify-between rounded-md shadow-md">
+    <div className="w-full h-[8vh] bg-white flex md:flex-col md:h-auto md:justify-start items-center justify-between rounded-md shadow-md">
       <div className="w-2/5 md:w-full p-2">
         <ul className="flex flex-row justify-around">
           <li className="text-black">
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           </li>
         </ul>
       </div>
-      <div className="w-2.5/5 p-2 md:w-full md:shadow-md flex items-center justify-around">
+      <div className="w-2.5/5 p-2 md:w-full flex items-center justify-around">
         <div className="w-[300px] h-10 rounded-md p-2 shadow-md flex items-center">
           <input
             type="text"
